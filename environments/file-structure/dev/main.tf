@@ -33,7 +33,7 @@ locals {
 }
 
 module "web-app-module" {
-  source = "../web-app-module"
+  source = "../../web-app-module"
 
   #   Input variables
   app_name         = "web-app"
