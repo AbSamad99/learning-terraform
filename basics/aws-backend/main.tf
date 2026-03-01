@@ -20,6 +20,7 @@ terraform {
   }
 }
 
+# Define the provider settings (you can have multiple providers in your main.tf)
 provider "aws" {
   region = "ca-central-1"
 }
